@@ -23,4 +23,14 @@ public class Student {
         this.dob = dob;
         this.age = age;
     }
+
+    public Student(String name,
+                   String email,
+                   LocalDate dob,
+                   Integer age) {
+        this.name = name;
+        this.email = email;
+        this.dob = dob;
+        this.age = age;
+    }
 }
